@@ -661,17 +661,15 @@ section .projects {
   }
   .row h3{
     margin: 50px 100px;
-    padding: inline start 500px;
     text-align: center;
   }
   .row img{
-    align-items:flex-end;
-    justify-content:space-around;
-    display: inline-block;
+    justify-content:space-between;
+    display:inline-flexbox;
     column-count: 2;
-    width:75%;
+    width:65%;
     margin-top: 0%;
-    margin-right: 5px;
+    margin-right: 25px;
     margin-left: 70px;
     margin-block-start: 50px;
     /* margin-block-end: 3px; */
